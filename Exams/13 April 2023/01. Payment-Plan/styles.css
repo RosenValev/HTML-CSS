@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.section-main {
+    max-width: 120rem;
+    min-height: 100vh;
+    background: url(image/background.jpg) no-repeat center center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 96rem;
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.8rem
+}
+
+.article {
+    background-color: #fff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    transition: 0.3s;
+}
+
+.standard {
+    transform: scaleY(1.1);
+}
+
+.premium {
+    transform: scaleY(1.05);
+}
+
+.basic:hover {
+    transform: scale(1.02);
+}
+
+.standard:hover {
+    transform: scale(1.02, 1.12);
+}
+
+.premium:hover {
+    transform: scale(1.02, 1.07);
+}
+
+.heading-primary {
+    text-transform: uppercase;
+}
+
+.price-tag strong {
+    font-size: 4rem;
+    margin-left: -0.8rem;
+}
+
+.price-tag span {
+    color: #444;
+}
+
+.price-info {
+    color: #888;
+    font-size: 0.75rem;
+}
+
+.price-features {
+    list-style: none;
+}
+
+.price-features li {
+    max-width: 33ch;
+    margin-bottom: 0.8rem;
+}
+
+.button {
+    display: block;
+    background-color: black;
+    padding: 0.8rem 1.6rem;
+    border-radius: 5px;
+}
