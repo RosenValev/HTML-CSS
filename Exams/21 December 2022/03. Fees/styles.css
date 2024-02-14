@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* *:after,
+*:before {
+    box-sizing: inherit;
+} */
+
+li {
+    list-style: none outside;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+body {
+    font-family: "Lato", "Montserrat", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    background-color: #fff;
+}
+
+
+.heading {
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    max-width: 110rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+
+
+/* SECTION ADDRESS */
+
+.section-address {
+    display: flex;
+    align-items: center;
+    padding: 1rem 4rem;
+    color: #54546D;
+}
+
+.section-address .logo img {
+    display: block;
+    width: 40%;
+    height: auto;
+}
+
+.section-address .nav-bar {
+    margin-left: auto;
+    display: flex;
+    gap: 1rem;
+    font-weight: 600;
+}
+
+/* SECTION HERO */
+
+.section-hero {
+    background: #54546D;
+    position: relative;
+}
+
+.section-hero .calculator {
+    position: absolute;
+    top: 5rem;
+    left: -3.4rem;
+}
+
+.section-hero .container>h2 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 4rem 0 2rem 0;
+}
+
+.section-hero .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-hero-programs {
+    display: flex;
+    padding: 2rem 4rem;
+    gap: 2rem;
+
+    margin-bottom: -10rem;
+}
+
+.section-hero-programs article {
+    flex: 1 1 30%;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    width: 45ch;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.75);
+}
+
+.section-hero-programs .top-container {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: #54546D;
+    padding: 2rem 1rem;
+}
+
+.section-hero-programs article p {
+    font-weight: 500;
+}
+
+.section-hero .button {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: #fff;
+
+    background-color: #9A5DC6;
+    padding: 0.8rem 1.6rem;
+    border-radius: 2rem;
+    margin: 2rem 0 1rem 0;
+}
+
+.section-hero-programs .basic-prices-free {
+    background: linear-gradient(90deg, hsla(143, 96%, 31%, 1) 0%, hsla(143, 62%, 56%, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0.5rem;
+    gap: 0.8rem;
+    color: #fff;
+}
+
+.section-hero-programs span {
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: "Montserrat";
+}
+
+
+.section-hero-programs .fundamental .prices,
+.section-hero-programs .professional .prices {
+    background: linear-gradient(90deg, hsla(209, 29%, 43%, 1) 0%, hsla(209, 53%, 59%, 1) 100%);
+    display: flex;
+
+    justify-content: space-between;
+    text-align: center;
+    padding: 1rem 0.5rem;
+    color: #fff;
+}
+
+.section-hero-programs .fundamental .prices-courses,
+.section-hero-programs .fundamental .prices-online,
+.section-hero-programs .professional .prices-courses,
+.section-hero-programs .professional .prices-online {
+    flex: 1 1 50%;
+    padding: 0 0.2rem 0 0;
+}
+
+.section-hero-programs .fundamental .prices-courses,
+.section-hero-programs .professional .prices-courses {
+    border-right: 2px solid #fff;
+}
+
+.section-hero-programs .professional .prices {
+    background: linear-gradient(90deg, hsla(250, 49%, 43%, 1) 0%, hsla(249, 62%, 68%, 1) 100%);
+}
+
+.margin-bottom-sm {
+    display: block;
+    margin-bottom: 0.8rem;
+}
+
+.section-hero-programs .fundamental p:nth-child(3),
+.section-hero-programs .professional p:nth-child(3) {
+    padding-bottom: 0.6rem;
+}
+
+
+/* SECTION TABLE */
+
+.study-form {
+    width: 80%;
+    margin: 12rem auto 3rem auto;
+}
+
+.study-form h3 {
+    margin: 20px 0;
+    font-weight: 500;
+}
+
+.study-form p {
+    margin: 30px 0;
+}
+
+.study-form ul {
+    padding: 0;
+}
+
+.study-form ul li {
+    list-style: none;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.study-form ul li span {
+    flex-basis: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.study-form ul li:nth-child(even) {
+    background-color: #F8F8F8;
+}
+
+.study-form ul li:nth-child(odd) {
+    background-color: #E6E6E6;
+}
+
+.study-form ul li:first-child {
+    border-radius: 5px 5px 0 0;
+}
+
+.study-form ul li:last-child {
+    border-radius: 0 0 5px 5px;
+}
+
+
+.finance {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 80px auto;
+}
+
+.finance .content h3 {
+    font-weight: 500;
+}
+
+.finance .content p {
+    margin-top: 20px;
+}
+
+.finance .content p:last-child {
+    margin: 0;
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    background-color: #54546D;
+    color: #8C89A2;
+    padding: 2rem 0;
+}
