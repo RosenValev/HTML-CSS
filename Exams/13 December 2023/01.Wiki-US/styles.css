@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none outside;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Agbalumo", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1rem;
+}
+
+.card {
+    max-width: 56rem;
+    margin: 1rem auto;
+    border: 2px solid black;
+}
+
+.card-top {
+    background-color: #D5EBEA;
+}
+
+.card-top-inner {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.card-top-inner h1 {
+    padding: 1rem 0 0 0;
+    font-size: 2.4rem;
+}
+
+.card-top-inner h1,
+.card-top-inner h3 {
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+
+.card-description-container {
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    padding: 1rem 0rem;
+    gap: 1rem;
+}
+
+.card-description-left {
+    flex: 1 1 38%;
+    border: 2px solid black;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    text-indent: 2rem;
+}
+
+.img-wrapper img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-description-left p {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+.card-description-right {
+    flex: 1 1 55%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card-description-right p {
+    text-indent: 2rem;
+    font-size: 1.1rem;
+}
+
+.card-facts {
+    max-width: 47%;
+    background-color: black;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.card-info {
+    background-color: #D5EBEA;
+    padding: 1rem 2rem;
+}
+
+.card-info p:not(:last-of-type) {
+    margin-bottom: 0.8rem;
+}
+
+.card-info span {
+    font-weight: 600;
+}

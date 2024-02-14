@@ -6,10 +6,10 @@
     box-sizing: border-box;
 }
 
-/* *:after,
+*:after,
 *:before {
     box-sizing: inherit;
-} */
+}
 
 li {
     list-style: none outside;
