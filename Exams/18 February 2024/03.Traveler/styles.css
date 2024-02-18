@@ -1,0 +1,280 @@
+@import url(https://fonts.googleapis.com/css2?family=Karla&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap);
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none outside;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+html {
+    font: 18px/1.5 "Karla", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Cormorant Infant";
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.site-section {
+    padding: 1rem 2rem;
+}
+
+
+/* HEADER */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/poster.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.site-header .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.site-title a {
+    display: block;
+    width: 110px;
+    height: 45px;
+    overflow: hidden;
+    text-indent: -200vw;
+    background-image: url('images/logo.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.site-header nav ul {
+    display: flex;
+    font-weight: 500;
+    gap: 1.5rem;
+}
+
+/* BANNER */
+
+.site-banner .container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.site-banner h1 {
+    font-size: 5rem;
+    padding: 10rem 0 4rem 0;
+}
+
+.site-banner p {
+    width: 50%;
+    padding-bottom: 5rem;
+}
+
+/* TESTIMONIAL */
+
+.site-testimonial {
+    background-color: #F8F0E9;
+}
+
+.site-testimonial .container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.site-testimonial .inner-container {
+    width: 62%;
+}
+
+.site-testimonial .subheading {
+    padding: 1rem 0 3rem 0;
+    font-size: 0.95rem;
+    color: #352B2A;
+}
+
+.site-testimonial h2 {
+    font-size: 3rem;
+    font-style: italic;
+    line-height: 0.85;
+    color: #352B2A;
+    padding-bottom: 4rem;
+}
+
+
+/* SUPPORT */
+
+.site-support {
+    background-color: #E14747;
+    color: #fff;
+    text-align: center;
+}
+
+.site-support .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2.5rem 0;
+}
+
+.site-support span {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.site-support .text {
+    width: 25ch;
+}
+
+/* CTA */
+
+.site-cta {
+    background-color: #F8F0E9;
+    padding: 3rem 0;
+}
+
+.site-cta .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-cta .inner-container {
+    width: 39%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.site-cta img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.site-cta h2 {
+    font-size: 3rem;
+    color: #352B2A;
+    text-align: center;
+    line-height: 1;
+    align-self: center;
+}
+
+.site-cta p {
+    color: #352B2A;
+}
+
+.site-cta .button {
+    color: black;
+    padding: 0.4rem 1.0rem;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    letter-spacing: -0.5px;
+}
+
+.site-cta .button-right {
+    align-self: center
+}
+
+
+/* GUIDE */
+
+.site-guide {
+    background-color: #E14747;
+    color: #fff;
+    padding-bottom: 3rem;
+}
+
+.site-guide .container {
+    display: flex;
+    justify-content: center;
+}
+
+.site-guide .inner-container {
+    width: 67%;
+    text-align: center;
+}
+
+.site-guide h2 {
+    font-size: 3.4rem;
+    padding: 4rem 0;
+}
+
+.site-guide p {
+    padding-bottom: 3rem;
+}
+
+.site-guide .button {
+    background-color: #FAD87A;
+    color: black;
+    font-size: 0.8rem;
+    padding: 0.8rem 1.2rem;
+    border-radius: 2rem;
+    letter-spacing: -0.75px;
+}
+
+/* FOOTER */
+
+.site-footer {
+    background-color: #352B2A;
+    padding: 3rem 0;
+}
+
+.site-footer .container {
+    display: flex;
+    padding-left: 3rem;
+}
+
+.site-footer .inner-container {
+    width: 28%;
+}
+
+.site-footer .img-wrapper {
+    padding-bottom: 2rem;
+}
+
+.site-footer .img-wrapper img {
+    display: block;
+    width: 60px;
+    height: auto;
+}
+
+.site-footer p {
+    color: #fff;
+    font-size: 0.70rem;
+}
+
+.site-footer span {
+    font-size: 0.6rem;
+    color: #766968;
+}
